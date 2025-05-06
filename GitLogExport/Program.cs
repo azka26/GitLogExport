@@ -124,14 +124,6 @@ class Program
             Directory.CreateDirectory(parameters.OutputDirectory);
         }
 
-        try
-        {
-            ExportAllFile(parameters);
-        }
-        catch (Exception ex)
-        {
-            // Handle exceptions
-            Console.WriteLine($"An error occurred: {ex.Message}");
-        }
+        ExportAllFile(parameters);
     }
 }
