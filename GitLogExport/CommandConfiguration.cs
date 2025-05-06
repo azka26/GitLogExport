@@ -40,6 +40,11 @@ public class CommandConfiguration
                 OutputDirectory = arg.Substring("--output-directory=".Length).Trim('"');
             }
         }
+
+        if (Until.HasValue == false)
+        {
+            Until = DateOnly.FromDateTime(DateTime.Now);
+        }
     }
 
     public DateOnly? Since { get; }
