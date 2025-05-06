@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GitLogExport": {
+      "commandName": "Project",
+      "commandLineArgs": "--output-directory=\"D:\\temp\\adm-sparepart\\EXPORT-GIT\"\r\n--working-directory=\"D:\\amn\\adm-sparepart\"\r\n--since=\"2024-10-01\"\r\n--until=\"2025-04-30\"\r\n--branch=\"master\""
+    }
+  }
+}
